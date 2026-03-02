@@ -4,7 +4,7 @@
  */
 const { createClient } = require('redis');
 
-const REDIS_URL = process.env.BLACKBOARD_REDIS_URL || 'redis://localhost:6379';
+const REDIS_URL = process.env.BLACKBOARD_REDIS_URL || 'redis://localhost:6380';
 const PREFIX = 'octiv:';
 
 class Blackboard {
